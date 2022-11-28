@@ -31,3 +31,4 @@ saludar()
 for (let i = 0; i < 3; i++) {
     confirm("El usuario ${i} te envio solicitud de amistad")
 }
+  
