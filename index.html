@@ -5,18 +5,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
+    <!-- Link Css -->
+    <link rel="stylesheet" href="main.css">
+
     <!-- Titulo de pagina -->
-    <title>Primera pre entrega de javascript</title>
+    <title>Tercera pre entrega de javascript</title>
 
 </head>
 
-<body>
+<body class="modo-claro">
+    <nav>
+        <button id="claro-oscuro">Modo Oscuro</button>
+    </nav>
 
+    
+    <main>
+        <div id="container-login">
+            
 
+            <form id="login">
 
-
-
+                <h1 class="titulo">Inicie sesión</h1>
+                <label>
+                    <input type="text" placeholder="Usuario" id="username">
+                </label>
+                <label>
+                    <input type="text" placeholder="Contraseña" id="password">
+                </label>
+                <button id="button">Ingresar</button>
+                
+                <p class="login-incorrecto">
+                    El usuario o la contraseña son incorrectas.
+                </p>
+            </form>            
+        </div>
+    </main>
 
 <!-- javascript -->
 <script src="index.js"></script>

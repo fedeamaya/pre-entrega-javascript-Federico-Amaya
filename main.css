@@ -1,0 +1,23 @@
+.modo-claro {
+    background-color: #ffffff;
+}
+
+.modo-oscuro {
+    background-color: #000000;
+}
+.titulo {
+    color: red;
+}
+.login {
+    color: red;
+}
+.login-incorrecto {
+    display: none;
+}
+body {
+    display: flex;;
+    flex-direction: column;
+    background: #fff;
+    text-align: center;
+    padding: 20px 25px;
+}
