@@ -1,16 +1,43 @@
+#logout {
+    display: none;
+}
+
+nav {
+    padding: 20px;
+    background-color: rgb(73, 73, 73);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;    
+}
+
+input {
+    margin: 10px 0px;
+}
+
+#login-incorrecto {
+    display: none;
+}
+
 .modo-claro {
-    background-color: #ffffff;
+    background: #cfcfcf;
 }
 
 .modo-oscuro {
-    background-color: #000000;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(36,33,33,1) 50%, rgba(0,0,0,1) 100%);
 }
 .titulo {
-    color: red;
+    color: #992f2f;
+    text-decoration: dotted;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.login {
-    color: red;
-}
+
 .login-incorrecto {
     display: none;
 }
